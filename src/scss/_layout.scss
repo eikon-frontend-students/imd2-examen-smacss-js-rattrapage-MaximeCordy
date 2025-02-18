@@ -1,0 +1,73 @@
+.l-header {
+  background: var(--dark-blue, #005564);
+  display: flex;
+  padding: 0px 52px 20px 53px;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-green-onions {
+  display: flex;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--green, #a0d187);
+}
+
+.l-green-jalapeno {
+  display: flex;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  background: var(--green, #a0d187);
+}
+
+.l-green-classic {
+  display: flex;
+  padding: 0px 40px 20px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--green, #a0d187);
+}
+
+.l-bottom {
+  height: 325px;
+  flex-shrink: 0;
+  background: var(--light-blue, #c0d9d9);
+  margin-top: 70px;
+}
+
+.l-green-classic img {
+  width: 100%;
+}
+
+.l-green-classic img.is-active {
+  transform: rotate(-25deg);
+}
+
+.l-green-classic.is-active {
+  background: var(--light-blue, #c0d9d9);
+}
+
+.l-green-onions img {
+  width: 100%;
+}
+
+.l-green-onions img.is-active {
+  transform: rotate(-25deg);
+}
+
+.l-green-onions.is-active {
+  background: var(--red, #cf9697);
+}
+
+.l-green-jalapeno img {
+  width: 100%;
+}
+
+.l-green-jalapeno img.is-active {
+  transform: rotate(-25deg);
+}
